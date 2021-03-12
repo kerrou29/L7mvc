@@ -116,6 +116,7 @@ C:\devl\ContosoUniversity\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-as
 C:\devl\ContosoUniversity\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\devl\ContosoUniversity\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\devl\ContosoUniversity\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.csprojAssemblyReference.cache
 C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.GeneratedMSBuildEditorConfig.editorconfig
 C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.AssemblyInfoInputs.cache
 C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.AssemblyInfo.cs
@@ -134,6 +135,11 @@ C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Create.cshtml.g.cs
+C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Delete.cshtml.g.cs
+C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Details.cshtml.g.cs
+C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Edit.cshtml.g.cs
+C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs
 C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.RazorTargetAssemblyInfo.cache
@@ -144,9 +150,3 @@ C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.dll
 C:\devl\ContosoUniversity\obj\Debug\net5.0\ref\ContosoUniversity.dll
 C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.pdb
 C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.genruntimeconfig.cache
-C:\devl\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.csprojAssemblyReference.cache
-C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Create.cshtml.g.cs
-C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Delete.cshtml.g.cs
-C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Details.cshtml.g.cs
-C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Edit.cshtml.g.cs
-C:\devl\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs

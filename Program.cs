@@ -1,3 +1,9 @@
+/*****************************Change History******************************************
+ * Author:                Date:               Description:                           *
+ * Khaoula Kerrou         3/11/2021           Creation of Contoso University Program *
+ *************************************************************************************
+ */
+
 using ContosoUniversity.Data;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
@@ -15,17 +21,17 @@ namespace ContosoUniversity
     {
         public static void Main(string[] args)
         {
+            //tinfo200:[2021-03-11-kerrou29-dykstra1]--Main Method for the Contoso university Program
             var host = CreateHostBuilder(args).Build();
 
             CreateDbIfNotExists(host);
 
             host.Run();
-           // CreateHostBuilder(args).Build().Run();
         }
 
         private static void CreateDbIfNotExists(IHost host)
         {
-            //tinfo200:[2021-03-09-kerrou29-dykstra1]--checking if data base exists
+            //tinfo200:[2021-03-11-kerrou29-dykstra1]--checking if data base exists
             //if it doesnt exist, it is created and loaded in arrays
             //if it exists, no action is taken
             using (var scope = host.Services.CreateScope())

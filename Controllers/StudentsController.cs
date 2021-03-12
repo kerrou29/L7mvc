@@ -10,8 +10,13 @@ using ContosoUniversity.Models;
 
 namespace ContosoUniversity.Controllers
 {
+    //tinfo200:[2021-03-11-kerrou29-dykstra1]--this class takes care of the "Students" subpage or service in the 
+    //webpage. It gives the user the ability to add a new student, modify an existing ones or delete a student
+    //The user can also view the details of each student (first name, last name, enrollement date)
     public class StudentsController : Controller
     {
+        //tinfo200:[2021-03-11-kerrou29-dykstra1]--The student controller uses the SchoolContext as a parameter
+        //it passes an instance of SchoolContext into the controller
         private readonly SchoolContext _context;
 
         public StudentsController(SchoolContext context)
@@ -22,6 +27,7 @@ namespace ContosoUniversity.Controllers
         // GET: Students
         public async Task<IActionResult> Index()
         {
+            //tinfo200:[2021-03-11-kerrou29-dykstra1]--This method gets the list of students from the Students Entity
             return View(await _context.Students.ToListAsync());
         }
 

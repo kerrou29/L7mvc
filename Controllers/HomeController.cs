@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ContosoUniversity.Controllers
 {
-    //controllers are conductors that recieve the request
+    //khaoula--controllers are conductors that recieve the request
     //from user and respoond back
     public class HomeController : Controller
     {
@@ -27,7 +27,7 @@ namespace ContosoUniversity.Controllers
 
         public IActionResult Privacy(string first = "Khaoula", string last = "Kerrou", string email ="kerrou29@uw.edu")
         {
-            //I stands for Interfaces
+            //khaoula-- I stands for Interfaces
 
             ViewData["FirstName"] = first;
             ViewData["LastName"] = last;

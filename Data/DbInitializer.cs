@@ -6,7 +6,7 @@ namespace ContosoUniversity.Data
 {
     public static class DbInitializer
     {
-        //tinfo200:[2021-03-10-kerrou29-dykstra1]--populating the data base with test data
+        //tinfo200:[2021-03-11-kerrou29-dykstra1]--populating the data base with test data
         public static void Initialize(SchoolContext context)
         {
             context.Database.EnsureCreated();
@@ -19,9 +19,9 @@ namespace ContosoUniversity.Data
 
             var students = new Student[]
             {
-             //tinfo200:[2021-03-10-kerrou29-dykstra1]--Instead of calling a constructor, we use the curly braces
+             //tinfo200:[2021-03-11-kerrou29-dykstra1]--Instead of calling a constructor, we use the curly braces
              //Name the parameters with properties; first name, last name
-             //enrollement date is fed with a specific dat
+             //enrollement date is fed with a specific data
 
             new Student{FirstMidName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2005-09-01")},
             new Student{FirstMidName="Meredith",LastName="Alonso",EnrollmentDate=DateTime.Parse("2002-09-01")},
@@ -41,7 +41,7 @@ namespace ContosoUniversity.Data
 
             var courses = new Course[]
             {
-             //tinfo200:[2021-03-10-kerrou29-dykstra1]--creating the courses that are available
+             //tinfo200:[2021-03-11-kerrou29-dykstra1]--creating the courses that are available
             new Course{CourseID=1050,Title="Chemistry",Credits=3},
             new Course{CourseID=4022,Title="Microeconomics",Credits=3},
             new Course{CourseID=4041,Title="Macroeconomics",Credits=3},
@@ -58,7 +58,7 @@ namespace ContosoUniversity.Data
 
             var enrollments = new Enrollment[]
             {
-             //tinfo200:[2021-03-10-kerrou29-dykstra1]--The grades are are the enumerated type that are taken from the enrollement class
+             //tinfo200:[2021-03-11-kerrou29-dykstra1]--The grades are are the enumerated type that are taken from the enrollement class
             new Enrollment{StudentID=1,CourseID=1050,Grade=Grade.A},
             new Enrollment{StudentID=1,CourseID=4022,Grade=Grade.C},
             new Enrollment{StudentID=1,CourseID=4041,Grade=Grade.B},

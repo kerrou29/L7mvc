@@ -15,7 +15,7 @@ namespace ContosoUniversity.Data
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Student> Students { get; set; }
 
-        //tinfo200:[2021-03-10-kerrou29-dykstra1]--Specifying the singular names in the tables in DBContext
+        //tinfo200:[2021-03-11-kerrou29-dykstra1]--Specifying the singular names in the tables in DBContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Course>().ToTable("Course");
